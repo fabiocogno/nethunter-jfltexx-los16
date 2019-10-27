@@ -1,0 +1,12 @@
+diff --git a/Makefile b/Makefile
+index b36409a05a6..6af30478d78 100755
+--- a/Makefile
++++ b/Makefile
+@@ -371,7 +371,6 @@ KBUILD_CPPFLAGS := -D__KERNEL__
+ 
+ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
+ 		   -fno-strict-aliasing -fno-common \
+-		   -Werror-implicit-function-declaration \
+ 		   -Wno-format-security \
+ 		   -fno-delete-null-pointer-checks \
+ 		   -std=gnu89

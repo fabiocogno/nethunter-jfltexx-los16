@@ -1,0 +1,18 @@
+diff --git a/devices.cfg b/devices.cfg
+index 03bdce4..8e62732 100644
+--- a/devices.cfg
++++ b/devices.cfg
+@@ -373,6 +373,13 @@ author = "semsevens (13.0) & fasheng (14.1)"
+ version = "1.0"
+ devicenames = jflte jfltexx i9505 GT-I9505 jgedlte i9505g GT-I9505G
+ 
++# Galaxy S4 for LineageOS 16
++[jfltexx-los]
++author = "Fabio Cogno"
++version = "1.0"
++kernelstring = "NetHunter kernel for jflte"
++devicenames = jflte GT-I9505 i9505 jfltexx
++
+ # Galaxy S5 Mini for LineageOS
+ [kminilte]
+ author = "yesimxev"

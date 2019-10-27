@@ -1,0 +1,24 @@
+diff --git a/drivers/bluetooth/btusb.c b/drivers/bluetooth/btusb.c
+index e4b6b6b48b7..77b40627f83 100755
+--- a/drivers/bluetooth/btusb.c
++++ b/drivers/bluetooth/btusb.c
+@@ -37,13 +37,13 @@
+ 
+ #define VERSION "0.6"
+ 
+-static int ignore_dga;
+-static int ignore_csr;
+-static int ignore_sniffer;
+-static int disable_scofix;
+-static int force_scofix;
++static bool ignore_dga;
++static bool ignore_csr;
++static bool ignore_sniffer;
++static bool disable_scofix;
++static bool force_scofix;
+ 
+-static int reset = 1;
++static bool reset = true;
+ 
+ static struct usb_driver btusb_driver;
+ 
