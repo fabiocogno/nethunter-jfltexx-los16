@@ -1,0 +1,11 @@
+# Ignore kernel sources
+/android_kernel_samsung_jf
+
+# Ignore toolchain
+/toolchain
+
+# Ignore Kali NetHunter
+/kali-nethunter-project
+
+# Ignore kernel build output
+/kernel
